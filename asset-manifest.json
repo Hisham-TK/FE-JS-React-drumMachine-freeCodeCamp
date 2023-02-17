@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FE-JS-React-drumMachine-freeCodeCamp/static/css/main.7239b164.css",
+    "main.js": "/FE-JS-React-drumMachine-freeCodeCamp/static/js/main.d4c66df1.js",
+    "static/js/787.d303e69b.chunk.js": "/FE-JS-React-drumMachine-freeCodeCamp/static/js/787.d303e69b.chunk.js",
+    "index.html": "/FE-JS-React-drumMachine-freeCodeCamp/index.html",
+    "main.7239b164.css.map": "/FE-JS-React-drumMachine-freeCodeCamp/static/css/main.7239b164.css.map",
+    "main.d4c66df1.js.map": "/FE-JS-React-drumMachine-freeCodeCamp/static/js/main.d4c66df1.js.map",
+    "787.d303e69b.chunk.js.map": "/FE-JS-React-drumMachine-freeCodeCamp/static/js/787.d303e69b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7239b164.css",
+    "static/js/main.d4c66df1.js"
+  ]
+}

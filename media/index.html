@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button class="" id="q_pad">
+      Q
+      <audio src="./Bld_H1.mp3" id="q"></audio>
+    </button>
+
+    <button class="" id="w_pad">
+      W
+      <audio src="./Brk_Snr.mp3" id="w"></audio>
+    </button>
+
+    <button class="" id="e_pad">
+      E
+      <audio src="./Cev_H2.mp3" id="e"></audio>
+    </button>
+
+    <button class="" id="a_pad">
+      A
+      <audio src="./Chord_1.mp3" id="a"></audio>
+    </button>
+
+    <button class="" id="s_pad">
+      S
+      <audio src="./Chord_2.mp3" id="s"></audio>
+    </button>
+
+    <button class="" id="d_pad">
+      D
+      <audio src="./Chord_3.mp3" id="d"></audio>
+    </button>
+
+    <button class="" id="z_pad">
+      Z
+      <audio src="./Dry_Ohh.mp3" id="z"></audio>
+    </button>
+
+    <button class="" id="x_pad">
+      X
+      <audio src="./Dsc_Oh.mp3" id="x"></audio>
+    </button>
+
+    <button class="" id="c_pad">
+      C
+      <audio src="./Give_us_a_light.mp3" id="c"></audio>
+    </button>
+    <script>
+      const body = document.querySelector('body');
+      body.addEventListener('click', (event) => {
+        const [letter, pad] = event.target.id?.split('_');
+        if (pad != 'pad') return;
+        document.getElementById(letter).play();
+      });
+      body.addEventListener('keydown', (event) => {
+        const letter = event.key.toLowerCase();
+        if (!'qweasdzxc'.includes(letter)) return;
+        document.getElementById(letter).play();
+      });
+    </script>
+  </body>
+</html>
