@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.7239b164.css","mappings":"AAAA,EACI,sBAEJ,KAII,YAHA,SACA,UACA,UACA,CAEJ,KACI,cAEJ,cACI","sources":["styles/global.sass"],"sourcesContent":["*\n    border: 1px solid gray\n\nbody\n    margin: 0\n    padding: 0\n    width: 100%\n    height: 100%\n\n#app\n    margin: 0 auto\n\n#drum-machine\n    width: 250px\n"],"names":[],"sourceRoot":""}
